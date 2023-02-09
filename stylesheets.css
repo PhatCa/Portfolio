@@ -1,0 +1,39 @@
+
+
+body{
+    background: teal;
+    margin: 0;
+}
+
+.row{
+    display:flex;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.cards{
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em 0;
+}
+
+.card{
+    align-items:flex-end;
+    justify-content: center;
+    position:relative;
+    max-width: 150px;
+    min-height: 500px;
+    text-align:center;
+    
+
+    
+}
