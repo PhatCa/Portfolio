@@ -1,39 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" conttent="width=device-width,initial-scale=1.0">
-        <title>Phat Portfolio</title>
+        <title>Phat's Portfolio</title>
         <link rel="stylesheet" href="stylesheets.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
+    
     <body>
-        <header> This is header</header>
-        <div class ="container">
-            <h1>Hi my name is Phat!</h1>
-            <div class="cards row">
-                <div class = "card row">
-                    <div class ="cardBody">
-                        <div class ="title"><h2>About Me</h2></div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptas alias sit accusamus eaque labore blanditiis unde, sunt qui odio? Reiciendis ullam sit rem culpa quas reprehenderit odio deleniti tenetur.</p>
-                    </div>
+        
+        <header>
+            <nav id = "navbar">
+                <ul>
+                    <li><a href="#" >Home</a></li>
+
+                    <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+                    <li><a href="#project" onclick="scrollToSection('projects')">Project</a></li>
+                    <li><a href="#resume" onclick="scrollToSection('resume')">Resume</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <div class ="whole-page">
+        <div class="container2">
+            <div id
+            <div class="profile">
+                    <img class="profileimg" src="img/Hinh_daujpg.jpg"><br>Hi welcome to my page
                 </div>
-                <div class = "card row">
-                    <div class ="card-body">
-                        <div class ="title"><h2>Project</h2></div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptas alias sit accusamus eaque labore blanditiis unde, sunt qui odio? Reiciendis ullam sit rem culpa quas reprehenderit odio deleniti tenetur.</p>
+                <div class="container1">
+                    <div class="box" id="about-box">About me
+                        <p class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad saepe rem voluptate quidem deserunt sit illum labore, libero, consectetur sunt officiis, in explicabo odio repellendus ullam molestias delectus suscipit. Consequatur!</p>
                     </div>
-                </div>
-                <div class = "card row">
-                    <div class ="card-body">
-                        <div class ="title"><h2>Resume</h2></div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptas alias sit accusamus eaque labore blanditiis unde, sunt qui odio? Reiciendis ullam sit rem culpa quas reprehenderit odio deleniti tenetur.</p>
+                    <div class="box" id="project-box">Project
+                        <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum cum corporis officiis dolorum? Reprehenderit sit doloribus, expedita ducimus eaque minima voluptatum voluptates odit tenetur harum accusantium modi omnis cupiditate ad.</p>
+                    </div>
+                    <div class="box" id="resume-box">Resume
+                        <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus assumenda nobis doloribus tempore odit illum rerum doloremque sequi quaerat, nostrum amet. Perferendis non at hic inventore quidem atque necessitatibus illo!</p>
                     </div>
                 </div>
             </div>
+            <div class ="container3" id ="about">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illum doloremque mollitia nam dolores! Incidunt corrupti sed voluptate temporibus, unde ab, sint assumenda delectus deleniti autem maiores ea, expedita quos.</p>
+            </div>
+
         </div>
-    </body>
-</html>
-
-
+            <script src="function.js"></script>
+        </body>
+        
+        </html>
+        
+        
 
 
